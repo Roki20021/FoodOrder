@@ -1,0 +1,462 @@
+*{
+    margin: 0 auto;
+    
+    background-color: 333533;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Duży EKRAN*/
+@media (min-width:1440px){
+    #container{
+        width: 1440px;
+        min-height: 940px;
+        
+    }
+span{
+    background-color: transparent;
+}
+a{
+    background-color: transparent;
+}
+    .div_logo{
+    width: 20%;
+    float: left;
+    height: 70px;
+    background-color: 202020;
+}
+.nav{
+    background-color:202020 ;
+    width: 75.1%;
+    float: left;
+    height: 70px;
+    margin-bottom: 50px;
+}
+.link{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+ul{
+    background-color: transparent;
+    height: 100%;
+    width: 80%;
+    
+}
+ul li {
+    background-color: transparent;
+    float: right;
+    text-align: center;
+    font-size: 27px;
+    list-style-type: none;
+    text-decoration: none;
+    height: 100%;
+}
+ul li a{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    width:150px ;
+    text-decoration: none;
+    display:table-cell;
+    vertical-align:middle;
+    height: 100%;
+    transform: scale(0.8);
+
+}
+ul li a:hover{
+    
+    border-radius: 40px;
+    background-color: FFD100;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.koszyk{
+    background-color:202020 ;
+    float: right;
+    height: 70px;
+    width: 4.9%;
+}
+.icon_cart{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    width: 60%;
+    height: 60%;
+}
+.icon_cart:hover{
+    transform: scale(1.4);
+    
+    
+}
+.propozycje{
+    clear: both;
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    height: 1400px;
+   
+}
+.slajdy{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 60px;
+    background-color: aliceblue;
+}
+.kuchnia{
+width: 28%;
+border-radius: 20px;
+background-color: 202020;
+color: black;
+float: left;
+padding: 15px;
+margin-left: 2.5%;
+text-align: center;
+justify-content: center;
+height: 750px;
+margin-top: 25px;
+padding-bottom: 30px;
+
+}
+h1{
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+h2
+{
+    font-size: 32px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.kuchnie{
+
+    width: 100%;
+    height: 300px;
+    color: black;
+    text-align: center;
+    
+}
+.tytul{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    margin: 10px;
+    float: center;
+    width: 100%;
+}
+.opis{
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: block;
+    padding-top: 10px;
+}
+.menu_pozycje{
+    width: 80%;
+    background-color: 202020;
+    height: 130px;
+    margin-bottom: 25px;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    transform: scale(0.8);
+
+}
+.menu_pozycje:hover{
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.pozycje_tytul{
+    padding-left: 15px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.pozycje_cena{
+    padding-left: 15px;
+    font-size: 25px;
+}
+.pozycje_opis,.pozycje_kategoria{
+    padding-left: 15px;
+}
+.button_do_koszyka{
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    background-color: FFD100;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    top: -50px;
+    display: block;
+    transform: scale(0.8);
+    margin-right: 25px;
+}
+.button_do_koszyka:hover{
+    transform: scale(1.0);
+}
+.ilosc_sztuk{
+    width: 50px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -50px;
+    left: -20px;
+    color: white;
+    font-size: 25px;
+}
+.dane_kontaktowe{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: initial;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formularz{
+    width: 21%;
+    background-color:202020 ;
+    
+}
+.rejestracja_formularz{
+font-size: 16px;
+color: white;
+}
+input[type=text],input[type=password],.number_dodajPotrawe {
+    font-size: 26px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 45px;
+    display: block;
+    color:grey;
+    background-color: 202020 ;
+    border: none;
+    border-radius: 10px;
+    background-color: FFD100;
+}
+input[type=text]:focus {
+    border: none;
+
+  }
+.do_koszyka, .dodaj_potrawe{
+    width: 200px;
+    text-decoration: none;
+    font-size: 32px;
+    background-color: FFD100;
+    text-align: center;
+    transform: scale(0.8);
+}
+.do_koszyka:hover{
+    transform: scale(1.0);
+
+}
+.button_rejestracja{
+    width: 220px;
+    height: 45px;
+    font-size: 27px;
+    color: black;
+    background-color:   FFD100 ;
+    border-radius: 15px;
+    position: relative;
+    left: 23px;
+    transform: scale(0.8);
+}
+.button_rejestracja:hover{
+    transform: scale(1.0);
+}
+.rejestracja{
+    width: 100%;
+    height: 1000px;
+}
+.formularz_rejestracja{
+display: flex;
+align-items: center;
+}
+.formularz_logowanie{
+    display: flex;
+    align-items: inherit;
+}
+.NieMaszKonta{      
+    text-align: center;
+    
+}
+.link_rejestracja{
+    background-color: transparent;
+    color: grey;
+
+}
+.link_rejestracja:hover{
+    color: grey;
+
+}
+.NieMaszKonta_napis{
+    color: white;
+}
+.error{
+    height: 20px;
+    color:red;
+}
+.cart_div{
+    width: 600px;
+    padding: 10px;
+    height: auto;
+    clear: both;
+
+}
+.error_koszyk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: red;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.formularz_dodaj_produkt{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 700px;
+    text-align: center;
+}
+.submit_usun_z_koszyka{
+    color: white;
+    background-color:FFD100 ;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+}
+.error_dodaj_potrawe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+.koszyk_pusty_error, .dodaj_produkt_span{
+    font-size: 1.5em;
+    color: white;
+}
+.dodaj_produkt_span_duzy{
+    font-size: 1em;
+    color: white;
+}
+
+td{
+    color: white;
+}
+.ilosc_sztuk_dodaj_produkt{
+    font-size: 26px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 45px;
+    margin: 25px;
+    display: block;
+    color:grey;
+    background-color: 202020 ;
+    border: none;
+    border-radius: 10px;
+    background-color: FFD100;
+}
+.zamowienia{
+    min-height: 940px;
+}
+.Analiza{
+    width: 100%;
+
+}
+
+.styl-tabela
+{
+        border-collapse: collapse;
+        margin: 25px;
+        font-size: 1.5em;
+        width: 90%;
+        min-width: 600px;
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);  
+}
+.styl-tabela-koszyk{
+    border-collapse: collapse;
+    font-size: 1.5em;
+    width: 600px;
+    min-width: 400px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);  
+}
+
+.styl-tabela,.styl-tabela-koszyk th,
+.styl-tabela,.styl-tabela-koszyk td {
+    padding: 12px 15px;
+}
+.styl-tabela, .styl-tabela-koszyk tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styl-tabela,  tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styl-tabela,tbody tr:hover {
+    font-weight: bold;
+}
+
+.stopka{
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    background-color:202020 ;
+    height: 50px;
+    clear: both;
+    color: D6D6D6;
+    
+   
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+}
